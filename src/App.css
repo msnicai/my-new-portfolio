@@ -1,0 +1,265 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f4f7fb;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Hero Section (Landing Page) */
+.hero {
+  background-color: #1e2a47;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+  background-image: url('https://via.placeholder.com/1500x500'); /* Optional background image */
+  background-size: cover;
+  background-position: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+}
+
+.hero .btn {
+  padding: 12px 20px;
+  background-color: #ff5a5f;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+  background-color: #ff3f40;
+}
+
+/* About Me Section */
+.about {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #ffffff;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about p {
+  font-size: 1.125rem;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.about .profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.about ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about ul li {
+  font-size: 1.125rem;
+  color: #555;
+  padding: 5px 0;
+}
+
+.about ul li:before {
+  content: "•";
+  color: #ff5a5f;
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+/* Projects Section */
+.projects {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.projects h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.project-card {
+  display: inline-block;
+  background-color: white;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 20px;
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.project-card .project-info {
+  padding: 20px;
+}
+
+.project-card .project-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.project-card .project-info p {
+  font-size: 1.125rem;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.project-card .project-info a {
+  display: inline-block;
+  text-decoration: none;
+  color: #ff5a5f;
+  font-weight: bold;
+  margin-right: 10px;
+  transition: color 0.3s ease;
+}
+
+.project-card .project-info a:hover {
+  color: #ff3f40;
+}
+
+/* Contact Section */
+.contact {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.contact form input,
+.contact form textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.contact form button {
+  width: 100%;
+  padding: 15px;
+  background-color: #ff5a5f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact form button:hover {
+  background-color: #ff3f40;
+}
+
+/* Footer */
+footer {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #1e2a47;
+  color: white;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+footer ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.25rem;
+  transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+  color: #ff5a5f;
+}
+/* Smooth scrolling for better user experience */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Scroll to Top Button */
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ff5a5f;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+.scroll-to-top:hover {
+  background-color: #ff3f40;
+}
+
+.scroll-to-top:focus {
+  outline: none;
+}
+
+.scroll-to-top:active {
+  transform: scale(0.95);
+}

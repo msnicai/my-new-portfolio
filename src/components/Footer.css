@@ -1,0 +1,40 @@
+footer ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.github-icon {
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.github-icon:hover {
+  transform: scale(1.1); /* Slight zoom effect when hovered */
+}
+
+/* Footer Styles */
+footer ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.linkedin-icon {
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.linkedin-icon:hover {
+  transform: scale(1.1); /* Slight zoom effect when hovered */
+}
